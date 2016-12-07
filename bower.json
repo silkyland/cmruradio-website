@@ -1,0 +1,21 @@
+{
+  "name": "cmruradio",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Bundit Nuntates <silkyland@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "datatables": "^1.10.13",
+    "sb-admin-2": "*"
+  }
+}
