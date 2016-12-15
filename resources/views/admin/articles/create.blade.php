@@ -10,6 +10,10 @@
             <div class="col-md-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">เพิ่มข่าวใหม่ <span class="addBackButton pull-right"></span></div>
+                    <div class="panel-body">
+                        <!-- include flash error -->
+                        @include('errors.flashError')
+                    </div>
                 </div>
             </div>
 
