@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "datatables": "^1.10.13",
-    "sb-admin-2": "*"
+    "sb-admin-2": "*",
+    "cropperjs": "^0.8.1"
   }
 }

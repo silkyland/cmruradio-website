@@ -28,4 +28,10 @@ Route::group(['prefix' => 'admin'], function () {
         Route::put('update-{id}', 'ArticleController@update');
         Route::delete('destroy', 'ArticleController@destroy');
     });
+
+    /* -- Categories -- */
+    Route::group(['prefix' => 'category'], function () {
+        Route::get('/', 'CategoryController@index');
+        Route::get('create', 'CategoryController@create');
+    });
 });

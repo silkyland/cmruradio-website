@@ -19,6 +19,9 @@
                 <a href="#"><i class="fa fa-file-o fa-fw"></i> ข่าวและหน้า<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
+                        <a href="/admin/category"><i class="fa fa-folder-open"></i> หมวดหมู่ข่าว</a>
+                    </li>
+                    <li>
                         <a href="/admin/article/create"><i class="fa fa-pencil"></i> เขียนข่าวใหม่</a>
                     </li>
                     <li>
@@ -37,28 +40,25 @@
                 <a href="#"><i class="fa fa-gears fa-fw"></i> จัดการ<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="/admin/users">หมวดหมู่ข่าว</a>
+                        <a href="/admin/menu">เมนู</a>
                     </li>
                     <li>
-                        <a href="/admin/users">เมนู</a>
+                        <a href="/admin/user">ผู้ใช้งาน</a>
                     </li>
                     <li>
-                        <a href="/admin/users">ผู้ใช้งาน</a>
+                        <a href="/admin/attachment">ไฟล์แนบ</a>
                     </li>
                     <li>
-                        <a href="/admin/users">ไฟล์แนบ</a>
+                        <a href="/admin/banner">แบนเนอร์ขนาดใหญ่</a>
                     </li>
                     <li>
-                        <a href="/admin/users">แบนเนอร์ขนาดใหญ่</a>
+                        <a href="/admin/link">ลิงค์</a>
                     </li>
                     <li>
-                        <a href="/admin/users">ลิงค์</a>
+                        <a href="/admin/forum">เว็บบอร์ด</a>
                     </li>
                     <li>
-                        <a href="/admin/users">เว็บบอร์ด</a>
-                    </li>
-                    <li>
-                        <a href="morris.html">ผู้รับข่าวสาร</a>
+                        <a href="subscriber">ผู้รับข่าวสาร</a>
                     </li>
                 </ul>
                 <!-- /.nav-second-level -->
